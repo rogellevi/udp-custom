@@ -23,12 +23,9 @@ git clone https://github.com/rogellevi/udp-custom && cd udp-custom && chmod +x i
 ## Manually
 
 ## Note: 
- * Use optional port exclude when port udp between 1-65535 already use by other udp tunnel, like badvpn, ovpn udp and other.
- * Edit path config /root/udp/config.json, after changing it then reboot
- * Optional port exclude separated by coma, ex. 53,5300
-
-## telegram
- > [magnu](https://t.me/magnui)
+ * Utilice la exclusión de puerto opcional cuando el puerto UDP entre 1 y 65535 ya esté en uso por otro túnel UDP, como badvpn, ovpn UDP y otros.
+ * Edite la ruta config /root/udp/config.json, luego cámbiela y reinicie.
+ * Exclusión de puerto opcional separada por coma, ej. 53,5300
 
 #
   > _made from pieces with ❤️_
