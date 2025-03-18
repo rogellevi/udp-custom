@@ -1,7 +1,7 @@
 ## UDP Custom - Installer and Manager
 #### * Version ⇢ 2.5-Lite
 ---
-UDP (User Datagram Protocol) is a network communication protocol that operates on top of IP (Internet Protocol). It is a simpler protocol compared to TCP (Transmission Control Protocol), as it aims for speed rather than reliability.
+UDP (Protocolo de Datagramas de Usuario) es un protocolo de comunicación de red que opera sobre IP (Protocolo de Internet). Es un protocolo más simple que TCP (Protocolo de Control de Transmisión), ya que prioriza la velocidad sobre la fiabilidad.
 
 
 ---
