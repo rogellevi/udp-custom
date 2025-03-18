@@ -2,7 +2,7 @@
 
 # Run as root
 [[ "$(whoami)" != "root" ]] && {
-    echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33myou need to run as root\033[0m"
+    echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33mEs Necesario Ejecutarlo como ROOT\033[0m"
     rm /home/ubuntu/install.sh &>/dev/null
     exit 0
 }
