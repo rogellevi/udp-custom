@@ -2,7 +2,7 @@
 
 # Run as root
 [[ "$(whoami)" != "root" ]] && {
-    echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33mEs Necesario Ejecutarlo como ROOT\033[0m"
+    echo -e "\033[1;33m[\033[1;31mErro\033[1;33m] \033[1;37m- \033[1;33mEs Necesario Ejecutarse como ROOT\033[0m"
     rm /home/ubuntu/install.sh &>/dev/null
     exit 0
 }
@@ -45,21 +45,21 @@ time_reboot() {
 if [ "$(lsb_release -rs)" = "8*|9*|10*|11*|16.04*|18.04*" ]; then
   clear
   print_center -ama -e "\e[1m\e[31m=====================================================\e[0m"
-  print_center -ama -e "\e[1m\e[33m${a94:-this script is not compatible with your operating system}\e[0m"
-  print_center -ama -e "\e[1m\e[33m ${a95:-Use Ubuntu 20 or higher}\e[0m"
+  print_center -ama -e "\e[1m\e[33m${a94:-Este script no es compatible con su sistema operativo}\e[0m"
+  print_center -ama -e "\e[1m\e[33m ${a95:-Utilice Ubuntu 20 o superior}\e[0m"
   print_center -ama -e "\e[1m\e[31m=====================================================\e[0m"
   rm /home/ubuntu/install.sh
   exit 1
 else
   clear
   echo ""
-  print_center -ama "A Compatible OS/Environment Found"
-  print_center -ama " ⇢ Installation begins...! <"
+  print_center -ama "Se encontró un sistema operativo/entorno compatible"
+  print_center -ama " ⇢ Comienza la instalación...! <"
   sleep 3
 
     # [change timezone to UTC +0]
   echo ""
-  echo " ⇢ Binary Core official ePro Dev Team"
+  echo " ⇢ Binary Core oficial del equipo de desarrollo de ePro"
   echo " ⇢ UDP Custom"
   sleep 3
 
@@ -128,7 +128,7 @@ else
   echo ""
   print_center -ama "${a103:-setting up, please wait...}"
   sleep 6
-  title "${a102:-Installation Successful}"
+  title "${a102:-Instalación exitosa}"
   print_center -ama "${a103:-  To show menu type: \nudp\n}"
   echo -ne "\n\033[1;31mENTER \033[1;33mpara entrar al \033[1;32mMENU!\033[0m"; read
    udp
